@@ -1,0 +1,16 @@
+<svg viewBox="0 0 141 24" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prata&amp;display=swap');
+
+    text {
+      dominant-baseline: middle;
+      fill: #FFF;
+      font-family: "Prata", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      text-anchor: middle;
+    }
+  </style>
+  <text x="50%" y="50%">edviye@tusmate.app</text>
+</svg>

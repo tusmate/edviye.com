@@ -309,6 +309,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-shrink: 0;
         }
         
         /* Footer */
@@ -358,6 +359,13 @@
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        /* svg */
+        object {
+            height: 2em;
+            margin: -1em 0;
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -462,14 +470,14 @@
                         <div class="contact-icon">📧</div>
                         <div>
                             <strong>E-posta:</strong><br>
-                            info@edviyesaglik.com
+                            <object width="141" height="24" data="./email.svg" type="image/svg+xml"></object>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">📞</div>
                         <div>
                             <strong>Telefon:</strong><br>
-                            +90 212 XXX XX XX
+                            <object width="121" height="24" data="./phone.svg" type="image/svg+xml"></object>
                         </div>
                     </div>
                 </div>
